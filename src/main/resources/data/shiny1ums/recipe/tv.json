@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "p": {
+      "tag": "c:glass_panes"
+    }
+  },
+  "pattern": [
+    "iii",
+    "iri",
+    "gpg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "shiny1ums:tv"
+  }
+}
