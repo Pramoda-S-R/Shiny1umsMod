@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "shiny1ums",
+	"version": "${version}",
+	"name": "Shiny1um's Mod",
+	"description": "This is a Quality of Life Mod by Shiny1um",
+	"authors": [
+		"Shiny1um"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Pramoda-S-R/Shiny1umsMod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/shiny1ums/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.shiny1um.shiny1umsmod.Shiny1umsMod"
+		],
+		"fabric-datagen": [
+			"com.shiny1um.shiny1umsmod.Shiny1umsModDataGenerator"
+		],
+		"client": [
+			"com.shiny1um.shiny1umsmod.Shiny1umsModClient"
+		]
+	},
+	"mixins": [
+		"shiny1ums.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
